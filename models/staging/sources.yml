@@ -1,0 +1,11 @@
+sources:
+  - name: jaffle_shop
+    database: BAX493A-data-engineering
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
+      - name: items
+      - name: products
+      - name: suppliers
+      
