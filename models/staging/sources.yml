@@ -1,6 +1,6 @@
 sources:
   - name: jaffle_shop
-    database: BAX493A-data-engineering
+    database: smart-amplifier-464317-c0
     schema: jaffle_shop
     tables:
       - name: customers
@@ -8,4 +8,3 @@ sources:
       - name: items
       - name: products
       - name: suppliers
-      
