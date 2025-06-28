@@ -1,8 +1,6 @@
-{{ config(materialized="view") }}
-
 with
 source as (
-    select * from (( source('jaffle_shop','orders')))
+    select * from {{ source('jaffle_shop','orders') }}
 )
 
 SELECT
@@ -12,4 +10,4 @@ ordered_at as order_date,
 subtotal,
 tax_paid,
 order_total
-from source_data
+from source
